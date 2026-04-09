@@ -1,3 +1,3 @@
-# Welcome to your Lovable project
+# Resurface Landing Page
 
-TODO: Document your project here
+This is a landing page for Resurface but will better it with demos and more accurate headlines and descriptions...
