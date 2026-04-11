@@ -24,22 +24,26 @@ const HeroSection = () => {
         </h1>
 
         <p className="animate-fade-up mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto" style={{ animationDelay: "0.15s" }}>
-          Resurface helps you find pages you've visited before. Search by topic, inspect your current page, and rediscover your browsing history — instantly.
+          Resurface helps you find pages you've visited before. Inspect any page you're on and Resurface surfaces pages relevant to what you're on. Or type in a topic to rediscover pages you forgot existed.
         </p>
 
         <div className="animate-fade-up mt-10 flex flex-col sm:flex-row gap-4 justify-center" style={{ animationDelay: "0.3s" }}>
           <a
             href="#"
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-primary text-primary-foreground font-semibold text-lg shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/30 hover:-translate-y-0.5 transition-all duration-200"
+            aria-disabled="true"
+            tabIndex={-1}
+            className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-primary text-primary-foreground font-semibold text-lg shadow-lg shadow-primary/25 opacity-60 cursor-not-allowed pointer-events-none"
           >
             <Chrome className="w-5 h-5" />
-            Add to Chrome — It's Free
+            Add to Chrome — Coming Soon...
           </a>
           <a
-            href="#features"
+            href="https://tally.so/r/0QJDZA"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full border border-border bg-card/60 backdrop-blur-sm text-foreground font-medium text-lg hover:bg-card hover:-translate-y-0.5 transition-all duration-200"
           >
-            Learn More
+            Join the Waitlist
           </a>
         </div>
       </div>

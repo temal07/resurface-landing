@@ -4,17 +4,17 @@ const features = [
   {
     icon: Search,
     title: "Smart Page Search",
-    description: "Type what you're looking for and Resurface suggests pages from your history that match your topic.",
+    description: "Type what you're looking for and Resurface suggests pages from your history and bookmarks that match your topic.",
   },
   {
     icon: Eye,
     title: "Inspect Current Page",
-    description: "Click inspect to instantly see details about the page you're on — title, URL, and more at a glance.",
+    description: "Click inspect to surface pages that are relevant to what you're on.",
   },
   {
     icon: Clock,
     title: "You've Been Here Before",
-    description: "Resurface remembers the pages you've visited and surfaces them when you need them most.",
+    description: "Resurface finds the pages you've visited and surfaces them when you need them most.",
   },
 ];
 

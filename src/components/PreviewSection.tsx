@@ -14,12 +14,16 @@ const PreviewSection = () => {
         </p>
 
         <div className="flex flex-col md:flex-row gap-8 justify-center items-center">
-          <div className="animate-float rounded-2xl shadow-2xl overflow-hidden border border-border bg-card">
-            <img src={ui1} alt="Resurface search interface" className="w-80" />
-          </div>
-          <div className="animate-float rounded-2xl shadow-2xl overflow-hidden border border-border bg-card" style={{ animationDelay: "1.5s" }}>
-            <img src={ui2} alt="Resurface with page detected" className="w-80" />
-          </div>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/KIEZ48MmYSw"
+            title="Resurface Demo"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="rounded-2xl"
+          ></iframe>
+     
         </div>
       </div>
     </section>
