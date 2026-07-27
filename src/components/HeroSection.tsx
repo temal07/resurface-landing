@@ -29,21 +29,13 @@ const HeroSection = () => {
 
         <div className="animate-fade-up mt-10 flex flex-col sm:flex-row gap-4 justify-center" style={{ animationDelay: "0.3s" }}>
           <a
-            href="#"
-            aria-disabled="true"
-            tabIndex={-1}
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-primary text-primary-foreground font-semibold text-lg shadow-lg shadow-primary/25 opacity-60 cursor-not-allowed pointer-events-none"
-          >
-            <Chrome className="w-5 h-5" />
-            Add to Chrome — Coming Soon...
-          </a>
-          <a
-            href="https://tally.so/r/0QJDZA"
+            href="https://chromewebstore.google.com/detail/resurface-contextual-page/bpolecbafamiolfilmlbpimedpeamfki"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-full border border-border bg-card/60 backdrop-blur-sm text-foreground font-medium text-lg hover:bg-card hover:-translate-y-0.5 transition-all duration-200"
+            className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-blue-500 text-white font-semibold text-lg shadow-lg shadow-blue-200 hover:bg-blue-600 hover:-translate-y-0.5 transition-all duration-200"
           >
-            Join the Waitlist
+            <Chrome className="w-5 h-5" />
+            Add to Chrome
           </a>
         </div>
       </div>
