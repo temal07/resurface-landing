@@ -1,4 +1,5 @@
 import resurfaceLogo from "@/assets/resurface-logo.png";
+import { Link } from "react-router-dom";
 
 const FooterSection = () => (
   <footer className="py-12 px-6 border-t border-border">
@@ -7,9 +8,16 @@ const FooterSection = () => (
         <img src={resurfaceLogo} alt="Resurface" className="w-8 h-8 rounded-lg" />
         <span className="font-semibold text-foreground">Resurface</span>
       </div>
-      <p className="text-sm text-muted-foreground">
-        © {new Date().getFullYear()} Resurface. All rights reserved.
+      <div className="flex gap-3">
+        <p className="text-sm text-muted-foreground">
+          © {new Date().getFullYear()} Resurface. All rights reserved.
+        </p>
+        <p className="text-sm text-muted-foreground">
+          <Link to="/privacy">
+            Privacy
+          </Link>
       </p>
+      </div>
     </div>
   </footer>
 );
